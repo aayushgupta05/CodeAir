@@ -1,0 +1,46 @@
+.center-row {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.primary-button {
+  border-radius: 0.8rem;
+  background-color: #004d7a;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  margin-left: 0.4rem;
+  margin-top: 1rem;
+  padding: 0.6rem 3rem;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.secondary-button {
+  border-radius: 0.4rem;
+  background-color: #004d7a;
+  color: white;
+  float: right;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.3rem 1.5rem;
+
+  &:hover {
+    color: white;
+  }
+}
+
+@import "../../pages/home/home.scss";
+@import "../../pages/codeRoom/codeRoom.scss";
+@import "../../components/nameModal/nameModal.scss";
+@import "../../components/messageBox/messageBox.scss";
+@import "../../components//voiceEnabler/voiceEnabler.scss";
+@import 'codemirror/lib/codemirror.css';
+@import 'codemirror/theme/material.css';

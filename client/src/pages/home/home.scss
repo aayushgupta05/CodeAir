@@ -1,0 +1,73 @@
+.home-container {
+  padding-top: 0.5rem;
+}
+
+.home-brand-text-column {
+  padding-top: 6.5rem;
+
+  h1 {
+    background: linear-gradient(
+      to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12
+    );
+    background-clip: text;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 6rem;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    padding-left: 0.5rem;
+  }
+
+  small {
+    padding-left: 1.2rem;
+  }
+}
+
+.home-icon {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-top: 5.5rem;
+}
+
+@media (max-width: 1200px) {
+  .home-brand-text-column {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .home-brand-text-column {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+
+  .home-icon {
+    padding-top: 8.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-brand-text-column {
+    padding-top: 1rem;
+
+    h6 {
+      font-size: 1rem;
+      line-height: 1.3rem;
+      padding-left: 0.3rem;
+    }
+  }
+
+  .home-icon {
+    display: none;
+  }
+}
