@@ -7,6 +7,8 @@ a more focussed user-interface.
 With no login/sign-up hassle and round trips to a database server (inhibiting your privacy); this is the fastest you can spin a server 
 and get on with a code-pairing session.
 
+Link: [codeair-app.herokuapp.com](https://codeair-app.herokuapp.com/) (Please note that the app may take upto a minute to load-up due to Heroku pushing it in down state when no requests are received for an extended period of time.)
+
 ## Technologies Involved
 CodeAir is running on the top of following technologies:
 - React
